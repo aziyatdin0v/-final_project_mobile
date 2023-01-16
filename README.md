@@ -8,7 +8,7 @@
 - [Запуск тестов в Jenkins](#-запуск-тестов-в-jenkins)
 - [Отчет о результатах тестирования в Allure Report](#-отчет-о-результатах-тестирования-в-Allure-report)
 - [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
-- [Уведомления в Telegram](#-уведомления-в-telegram-с)
+- [Уведомления в Telegram](#-уведомления-в-telegram)
 - [Пример запуска теста в Browserstack](#-пример-запуска-теста-в-Browserstack)
 
 ## :gear: Технологии и инструменты
@@ -83,7 +83,7 @@ gradle clean test -DdeviceHost=local
   <img src="media/screen/allure-testops-results.png" alt="dashboard" width="900">
 </p>
 
-## <img width="4%" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+## <img width="4%" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
