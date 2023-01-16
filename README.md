@@ -89,7 +89,7 @@ gradle clean test -DdeviceHost=local
 <p align="center">
 <img title="Telegram Notifications" src="media/screen/Telegram.png">
 
-## <img width="4%" title="Selenoid" src="media/logo/Browserstack.svg"> Пример запуска теста в Browserstack
+## <img width="4%" title="Browserstack" src="media/logo/Browserstack.svg"> Пример запуска теста в Browserstack
 
 К каждому тесту в отчете прилагается видео.
 
