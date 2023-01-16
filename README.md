@@ -59,7 +59,7 @@ gradle clean test-DdeviceHost=local
 После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
 значок *Allure Report*, кликнув по которому, откроется страница с сформированным html-отчетом.
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/015_aziyatdinov_final_mobile/)
 
 <p align="center">
   <img src="images/screen/jenkins_overview.png" alt="allure-report" width="900">
@@ -69,7 +69,7 @@ gradle clean test-DdeviceHost=local
   <img src="images/screen/jenkins_behaviors.png" alt="allure-report_1" width="900">
 </p>
 
-## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18294)
+## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18428/)
 
 ### Основной дашборд
 
@@ -87,7 +87,7 @@ gradle clean test-DdeviceHost=local
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
-<img title="Telegram Notifications" src="images/screenshot/Telegram.png">
+<img title="Telegram Notifications" src="images/screen/Telegram.png">
 
 ## <img width="4%" title="Selenoid" src="images/logo/Browserstack.svg"> Пример запуска теста в Browserstack
 
@@ -99,5 +99,5 @@ gradle clean test-DdeviceHost=local
 
 
 <p align="center">
-  <img title="Browserstack Video" src="images/video/mobile_test.gif">
+  <img title="Browserstack Video" src="images/video/mobile_browserstack_test.gif">
 </p>
