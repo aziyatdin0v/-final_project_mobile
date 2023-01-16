@@ -31,7 +31,7 @@
 ## :heavy_check_mark: Тест кейсы
 
 - Проверка поиска в приложении
-- Проверка прохождения начального экрана
+- Проверка прохождения начальных экранов
 - Проверка добавления нового языка в настройках приложения
 
 ## :computer: Запуск тестов из терминала
@@ -45,7 +45,7 @@ gradle clean test -DdeviceHost=browserstack
 ### Локальный запуск тестов
 
 ```bash
-gradle clean test-DdeviceHost=local
+gradle clean test -DdeviceHost=local
 ```
 
 ## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/)
