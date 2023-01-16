@@ -28,7 +28,7 @@
 <a href="https://web.telegram.org/"><img src="images/logo/Telegram.svg" width="50" height="50" alt="Telegram" title="Telegram"></a>
 </p>
 
-## :bookmark_tabs: Тест кейсы:
+## :heavy_check_mark: Тест кейсы
 
 - Проверка поиска в приложении
 - Проверка прохождения начального экрана
